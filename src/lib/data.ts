@@ -147,6 +147,22 @@ export const socials = [
 
 export const experiencesData = [
   {
+    Company: "Unlimitail",
+    title: "Data Engineer & BI Analyst ",
+    location: "Paris, France",
+    description:`
+I develop data pipelines processing billions of rows to provide crucial insights to e-commerce platforms, optimizing their advertising services and sales.
+
+- Design of massive data pipelines
+- Creation of dashboards for real-time reporting
+- Transformation of raw data into actionable information  
+
+__Skills:__ GCP, BigQuery, Dataform, Power BI
+`,
+    icon: React.createElement(CgWorkAlt),
+    date: "sept. 2023 - Now"
+  },
+  {
     Company: "Milvue",
     title: "Data Engineer & Software engineer ",
     location: "Paris, France",
@@ -155,8 +171,9 @@ export const experiencesData = [
 - Create a python package that allows the comparison of the predictions of the radio image recognition algorithm with reference results, using comparison measures such as Pearson correlation, ICC and Bland-Altman diagram etc.
 - Develop an interactive interface that exploits the comparison package to display dynamic diagrams and allow assessment of model weaknesses.
 - Creation of a python package for analyzing and forecasting patient flows, using time-series prediction techniques.
-- Developed an interactive interface based on the flow prediction package, enabling the display of results and other key metrics.
-- **Skills:** Python, Pandas, scipy/stats, Google Cloud, Streamlit
+- Developed an interactive interface based on the flow prediction package, enabling the display of results and other key metrics.  
+
+**Skills:** Python, Pandas, scipy/stats, Google Cloud, Streamlit  
 `,
     icon: React.createElement(CgWorkAlt),
     date: "sept. 2022 - sept. 2023"
@@ -170,10 +187,11 @@ export const experiencesData = [
 - Develop a tool to extract and transform raw JSON data from several learning platforms (Languages, Mathematics, Latin) while standardizing their formats and enriching them with KPIs.
 - Develop a K-means model to classify 600k students according to their results in order to offer them personalized follow-up.
 - Create a dashboard to present KPIs linked to student results.
-- Create a tool to visualize the rules that allow students to move from one activity to another in the learning platform.
-- **Unsupervised learning & clustering:** K-means, Scikit-Learn
-- **Data visualization & filtering:** Matplotlib, NetworkX, Pandas, Streamlit
-- **DevOps:** Docker, git, Jira, Selenium
+- Create a tool to visualize the rules that allow students to move from one activity to another in the learning platform. 
+
+**Unsupervised learning & clustering:** K-means, Scikit-Learn  
+**Data visualization & filtering:** Matplotlib, NetworkX, Pandas, Streamlit  
+**DevOps:** Docker, git, Jira, Selenium  
 `,
     icon: React.createElement(CgWorkAlt),
     date: "déc. 2020 - août 2022"
