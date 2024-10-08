@@ -1,6 +1,6 @@
 
 import { motion } from "framer-motion";
-import { BsLinkedin, BsMedium, BsGooglePlay, BsCalendar2Check, BsCalendar, BsCalendar2Date } from "react-icons/bs";
+import { BsLinkedin, BsMedium, BsGooglePlay } from "react-icons/bs";
 import { FaCalendarPlus, FaGithub } from "react-icons/fa";
 import portfolioImg from "/portfolio.jpeg";
 import { useActiveSection } from "../signals/active-section-signal";
