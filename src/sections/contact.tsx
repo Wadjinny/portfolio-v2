@@ -28,7 +28,10 @@ export default function Contact() {
         Please contact me directly at{" "}
         <a className="underline" href="mailto:ilyas.wadjinny@gmail.com">
           ilyas.wadjinny@gmail.com
-        </a>{" "}
+        </a><br></br> Or {""}
+        <a className="underline"
+        href="#" onClick={() => {(globalThis as any).Calendly.initPopupWidget({url: 'https://calendly.com/ilyasswadjinny?hide_landing_page_details=1&hide_gdpr_banner=1'});return false;}}>
+          click here</a> to schedule a meeting on Calendly !
       </p>
     </motion.section>
   );

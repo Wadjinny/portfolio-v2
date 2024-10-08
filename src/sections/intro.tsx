@@ -1,7 +1,7 @@
 
 import { motion } from "framer-motion";
-import { BsLinkedin, BsMedium, BsGooglePlay } from "react-icons/bs";
-import { FaGithub } from "react-icons/fa";
+import { BsLinkedin, BsMedium, BsGooglePlay, BsCalendar2Check, BsCalendar, BsCalendar2Date } from "react-icons/bs";
+import { FaCalendarPlus, FaGithub } from "react-icons/fa";
 import portfolioImg from "/portfolio.jpeg";
 import { useActiveSection } from "../signals/active-section-signal";
 
@@ -91,6 +91,10 @@ I am also interested in almost all aspects of technology: Web dev, Mobile dev, G
           <span className="dark:opacity-70">Play Store</span>
           <BsGooglePlay className="dark:opacity-70" />
         </a>
+        <a className="group bg-blue-800 text-white px-7 py-3 flex items-center gap-3 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition border-2 border-white border-opacity-40"
+        href="#" onClick={() => {(globalThis as any).Calendly.initPopupWidget({url: 'https://calendly.com/ilyasswadjinny?hide_landing_page_details=1&hide_gdpr_banner=1'});return false;}}>
+          <FaCalendarPlus className="dark:opacity-70" />
+          Let&#39;s chat !</a>
       </motion.div>
     </section>
   );
