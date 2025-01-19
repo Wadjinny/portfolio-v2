@@ -1,6 +1,6 @@
 const sendMsg = (msg) => {
-  const webhookUrl =
-    'https://discord.com/api/webhooks/1213528271551991909/RB8eKQ57Rycfai6eZYQsLEEJ_NLlYVuxlfTdOOcScmsiEmcaADTzXQ6YfW3nSwcd0wE5'; // Replace with your webhook URL
+  const webhookUrl = import.meta.env.VITE_DISCORD_WEBHOOK_URL;
+
 
   const message = {
     content: msg,
